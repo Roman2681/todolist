@@ -1,0 +1,60 @@
+body{
+    padding-top: 50px;
+    background: blue;
+    font-size: medium;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    padding: 50px 35px;
+}
+h1{
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: blue;
+}
+
+.app{
+    width: 50%;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    
+}
+.list_container{
+    padding: 0 20px;
+}
+.list > *{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    padding: 10px 15px;
+    background: yellow;
+    font-size: medium;
+    border: unset;
+    color: gray;
+    border-radius: 8px;
+}
+.delete_btn{
+    padding: 6px 8px;
+    font-size: small;
+    font-weight: 700;
+    border-radius: 5px;
+    background: red;
+    color: white;
+}
+.btns_container{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+}
+.btns_container > *{
+    flex: 1 1;
+}
